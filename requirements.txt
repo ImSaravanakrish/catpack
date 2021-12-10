@@ -68,5 +68,5 @@ vcsi
 wand
 wget
 git+https://github.com/goldsmith/Wikipedia
-youtube-search-python
+git+https://github.com/alexmercerind/youtube-search-python
 youtube_dl
