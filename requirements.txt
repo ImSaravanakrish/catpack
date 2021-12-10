@@ -16,7 +16,7 @@ glitch_this
 google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib
-googletrans==4.0.0-rc1
+git+https://github.com/sandy1709/py-googletrans
 gtts
 hachoir
 heroku3
