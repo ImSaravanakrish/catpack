@@ -1,38 +1,40 @@
 {
-  "name": "Catuserbot",
-  "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep ",
-  "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
+  "name": "TamilBot",
+  "description": "பைதான் 3 இல் இயங்கும் ஒரு டெலிகிராம் யூசர்போட்.",
+  "logo": "https://telegra.ph/file/2790938cacb9aa80d478c.jpg",
   "keywords": [
+    "telegram",
+    "userbot",
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/sandy1709/catuserbot/",
-  "website": "#TODO",
+  "repository": "https://github.com/IVETRI/TamilBot",
+  "website": "https://github.com/IVETRI/TamilBot",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "give your name",
+      "description": "உங்கள் Telegram Account பெயரை பதிவிடவும்",
       "value": ""
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "https://my.telegram.org இருந்து பெறுங்கள்",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "https://my.telegram.org இருந்து பெறுங்கள்",
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
+      "description": "generate_string_session.py Or https://replit.com/@Ivetri/TamilBots#main.py பயன்படுத்தி உருவாக்கவும்.",
       "value": ""
     },
     "TG_BOT_USERNAME": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
+      "description": "inline buttons உருவாக்க தேவை. [BotFather](http://telegram.dog/BotFather) இல் ஒரு போட் செய்யுங்கள். உங்கள் போட்டின் Token-ஐ பெறுங்கள்",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
+      "description": "inline buttons உருவாக்க தேவை.[BotFather](http://telegram.dog/BotFather) இல் ஒரு போட் செய்யுங்கள்.உங்கள் போட்டின் UserName-ஐ பெறுங்கள்.",
       "value": ""
     },
     "COMMAND_HAND_LER": {
@@ -46,14 +48,24 @@
       "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
+      "description": "Go to https://dashboard.heroku.com/account, கீழே சென்று அழுத்தவும் Reveal API.Update Plugin வேலை செய்ய தேவை",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "YOUR app name ",
+      "description": "உங்கள் Heroku App பெயர் ",
       "value": "",
       "required": false
+    },
+    "PRIVATE_GROUP_ID": {
+      "description": "Pm Permit வேலை செய்ய தேவை. Private Group I'd -ஐ இடவும். id must start with -100. Ask @TamilSupport",
+      "value": "",
+      "required": true
+    },
+    "PRIVATE_GROUP_BOT_ID": {
+      "description": "Pm Permit வேலை செய்ய தேவை. Private Group I'd -ஐ இடவும்.  id must start with -100. Ask @TamilSupport.",
+      "value": "",
+       "required": true
     },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
@@ -61,8 +73,8 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
-      "value": "goodcat",
+      "description": "உங்களுக்கு புதிய Bot தேவைப்பட்டால், TamilBotNew எனவும்,  பழைய Bot தேவைப்பட்டால், TamilBotOld எனவும் பதிவிடவும்.",
+      "value": "",
       "required": false
     }
   },
