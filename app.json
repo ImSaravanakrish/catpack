@@ -67,6 +67,16 @@
       "value": "",
        "required": true
     },
+    "CUSTOM_PMPERMIT": {
+      "description": "custom pm text.note-words not exceed to 64 character",
+      "value": "நான் உங்களைப் போலல்லாமல் ஒரு Busy-யான மனிதர்!😁😅",
+      "required": false
+    },
+    "PMPERMIT_PIC": {
+      "description": "custom pm picture",
+      "value": "https://telegra.ph/file/cb72a96f40d9026e3341d.jpg",
+      "required": false
+    },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "Asia/Kolkata",
